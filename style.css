@@ -40,6 +40,7 @@ header p {
 /* Projects Section */
 #projects {
     padding: 3rem 0;
+    border-bottom: 2px solid #00ff7f; /* Thin green line */
 }
 
 #projects h2, #about h2 {
@@ -103,6 +104,7 @@ header p {
 /* About Section */
 #about {
     padding: 3rem 0;
+    border-bottom: 2px solid #00ff7f; /* Thin green line */
 }
 
 #about p {
@@ -120,8 +122,18 @@ footer {
     padding: 1.5rem 0;
     background-color: #111;
     margin-top: 2rem;
+    border-top: 2px solid #00ff7f; /* Thin green line */
 }
 
 footer p {
     color: #888;
+}
+
+/* Explore More Text */
+.explore-more {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #00ff7f;
+    margin-top: 2rem;
 }

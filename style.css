@@ -23,6 +23,7 @@ html {
     margin: 0 auto;
 }
 
+
 /* Header */
 header {
     background: linear-gradient(135deg, #00ff7f, #007f5f);
@@ -31,6 +32,11 @@ header {
     color: #000;
     border-bottom: 4px solid #00ff7f;
     box-shadow: 0 5px 15px rgba(0, 255, 127, 0.3);
+
+    /* Fix for visibility and positioning */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 header h1 {
